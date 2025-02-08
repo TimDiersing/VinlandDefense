@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0205ad8bb4f8a34297691487cc7f3c9, type: 3}
+  m_Name: HeavyTurret
+  m_EditorClassIdentifier: 
+  turretPF: {fileID: 3751969859869088953, guid: af5f8b87359febc458a4ca75b62a068b, type: 3}
+  title: Heavy Turret
+  index: 2
+  rarity: 2
+  UIImage: {fileID: 1671577956779784048, guid: aba315ac1a4b9784cacaeb43baea3a5d, type: 3}
+  cost: 150
+  amount: 2

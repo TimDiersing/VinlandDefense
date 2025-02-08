@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac03013ea2604e439b733a3293f5cc7, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  levelNumber: 1
+  waves:
+  - timeBeforeWave: 4
+    spawns:
+    - enemyPF: {fileID: 7712450404608150642, guid: baa8cf3165bd7944b8c9eb7080272f0d, type: 3}
+      amt: 10
+      timeBeforeSpawn: 0
+      spawnRate: 0.5
+  - timeBeforeWave: 2
+    spawns:
+    - enemyPF: {fileID: 7712450404608150642, guid: baa8cf3165bd7944b8c9eb7080272f0d, type: 3}
+      amt: 20
+      timeBeforeSpawn: 0
+      spawnRate: 1
+  - timeBeforeWave: 2
+    spawns:
+    - enemyPF: {fileID: 5231749897424506964, guid: 3fa6dec4f561fc043b13dd09d773d01b, type: 3}
+      amt: 10
+      timeBeforeSpawn: 0
+      spawnRate: 0.5
+  - timeBeforeWave: 2
+    spawns:
+    - enemyPF: {fileID: 7712450404608150642, guid: baa8cf3165bd7944b8c9eb7080272f0d, type: 3}
+      amt: 20
+      timeBeforeSpawn: 0
+      spawnRate: 0.5
+    - enemyPF: {fileID: 5231749897424506964, guid: 3fa6dec4f561fc043b13dd09d773d01b, type: 3}
+      amt: 10
+      timeBeforeSpawn: 5
+      spawnRate: 0.5
+  - timeBeforeWave: 2
+    spawns:
+    - enemyPF: {fileID: 5231749897424506964, guid: 3fa6dec4f561fc043b13dd09d773d01b, type: 3}
+      amt: 20
+      timeBeforeSpawn: 0
+      spawnRate: 1.5
